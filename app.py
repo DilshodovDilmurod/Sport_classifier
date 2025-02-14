@@ -38,7 +38,7 @@ st.markdown("### Iltimos, rasm yuklang va natijani kuting")
 file = st.file_uploader("Rasm yuklash", type=['png', 'jpeg', 'jpg', 'gif', 'svg'])
 
 if file:
-    st.image(file, caption="Yuklangan rasm", use_column_width=True)
+    st.image(file, caption="Yuklangan rasm", use_container_width=True)
     
     # PIL konvertatsiya
     img = PILImage.create(file)
