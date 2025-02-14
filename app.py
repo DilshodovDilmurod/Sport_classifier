@@ -5,6 +5,8 @@ from fastai.vision.all import *
 #title
 st.title("Futbol o'yinlarini klassifikatsiya qiluvchi model")
 
+st.subheader("Football, Tennis_ball va Volleyball rasmlariini bashorat qiluvchi web dastur ")
+
 file = st.file_uploader('Rasm yuklash', type=['png', 'jpeg', 'gif', 'svg'])
 if file:
     st.image(file)
